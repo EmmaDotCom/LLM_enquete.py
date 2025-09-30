@@ -12,3 +12,6 @@ while True:
     if choix.lower() == "stop":
         print("Enquête terminée. Merci d'avoir joué !")
         break
+    elif choix not in ["1", "2", "3"]:
+        print("Choix invalide. Veuillez choisir 1, 2 ou 3.\n")
+        continue
